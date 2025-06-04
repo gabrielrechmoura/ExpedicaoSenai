@@ -102,6 +102,48 @@
         fill: #005CA9;
     }
 
+    .interativo {
+      cursor: pointer;
+      animation: pulsarStroke 1.6s infinite ease-in-out;
+      transform-origin: center;
+      transition: transform 0.3s ease;
+      stroke: #e1ff00;
+      stroke-width: 1;
+    }
+
+    #area_banheiro_baixo{
+        cursor: pointer;
+        animation: pulsarStroke 1.6s infinite ease-in-out;
+        transform-origin: center;
+        transition: transform 0.3s ease;
+        stroke: #ffaa00;
+        stroke-width: 1;
+    }
+
+      #area_banheiro_cima{
+        cursor: pointer;
+        animation: pulsarStroke 1.6s infinite ease-in-out;
+        transform-origin: center;
+        transition: transform 0.3s ease;
+        stroke: #ffaa00;
+        stroke-width: 1;
+    }
+    
+    @keyframes pulsarStroke {
+      0% {
+        stroke-width: 1;
+        fill-opacity: 1;
+      }
+      50% {
+        stroke-width: 3;
+        fill-opacity: 0.75;
+      }
+      100% {
+        stroke-width: 1;
+        fill-opacity: 1;
+      }
+    }
+
     @media (max-width: 768px) {
       .conteudoMapa {
         flex-direction: column;
@@ -610,13 +652,13 @@
               inkscape:label="area alimentos"
               transform="translate(363.52457,65.29348)" />
             <path
-              style="fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round"
+              style="fill-opacity:1;stroke-width:0.1;stroke-linecap:round"
               d="m 358.70703,402.51562 v 10.97266 l -4.44141,0.008 -19.18565,-0.0285 h -2.38119 v 97.79021 H 467.60937 V 402.52344 Z"
               id="area_eletrica_2"
               inkscape:label="area eletrica 2"
               transform="translate(363.52457,65.29348)" />
             <path
-              style="fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round"
+              style="fill-opacity:1;stroke-width:0.1;stroke-linecap:round"
               d="m 330.52734,511.25 h -72.38672 v -97.7755 h 1.22464 10.56363 2.20591 l 10.86911,-10.93153 h 47.52734 z"
               id="area_eletrica"
               inkscape:label="area eletrica"
@@ -634,7 +676,7 @@
               inkscape:label="area mesa cantina"
               transform="translate(363.52457,65.29348)" />
             <path
-              style="fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round"
+              style="fill-opacity:1;stroke-width:0.1;stroke-linecap:round"
               d="m 207.50781,113.91016 0.004,-10.73828 2.10547,0.004 0.0703,-11.156249 -2.11719,0.0078 -0.0871,-1.459034 -19.07303,0.0059 0.004,23.339843 z"
               id="area_perto_banheiro"
               inkscape:label="area perto banheiro"
@@ -664,7 +706,7 @@
               inkscape:label="area solda"
               transform="translate(363.52457,65.29348)" />
             <path
-              style="fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round"
+              style="fill-opacity:1;stroke-width:0.1;stroke-linecap:round"
               d="M 467.48437,244.85156 V 90.252644 H 388.46094 V 11.124209 H 311.4467 l 0.0103,233.731261 z"
               id="area_torno"
               inkscape:label="area torno"
