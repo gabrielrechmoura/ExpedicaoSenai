@@ -1,0 +1,150 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Titulo{
+    text-shadow: -5px 12px 4px rgba(241, 236, 235, 0.83);
+    text-align: center;
+    color: aliceblue;
+    border: 5px solid rgb(166, 182, 235);
+    box-shadow: 30px 10px 33px 5px rgba(0, 0, 0, 0.66);
+    padding: 3%;
+}
+
+
+header {
+    background-color: #002855;
+    height: 10px;
+    padding: 3%;
+    border: 10px solid rgb(166, 182, 235);
+ }   
+    
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #023e7d;
+    list-style: none;
+}
+
+a {
+    text-align: center;
+    color: rgb(234, 234, 243);
+    text-decoration: none;
+
+}
+
+p {
+    text-align: center;
+    color: aliceblue;
+}
+
+.Foto{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+
+.Foto1 {
+    border: 5px solid rgb(253, 246, 246);
+    box-shadow: -1px -3px 29px 50px rgba(33,54,255,0.26);
+    justify-content: center;
+    transition: 0.5s linear;
+}
+
+.Foto1:hover {
+    transform: scale(1.1);
+}
+
+.Titulo {
+    background-color: #023e7d;
+    height: 200px;
+}
+
+.Fundo {
+    padding: 1%;
+    background-color: #0466c8;
+
+}
+    
+
+h2 {
+    background-color: #023e7d;
+    padding: 3%;
+    text-align: center;
+    color: rgb(162, 195, 224);
+    border: 5px solid rgb(166, 182, 235);
+    box-shadow: 30px 10px 33px 5px rgba(16, 17, 20, 0.66);
+    
+   
+}
+
+.texto{
+    text-shadow: -5px 12px 4px rgba(241, 236, 235, 0.83);
+    text-align: left;
+    color: aliceblue;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.coluna {
+    flex: 1;
+    min-width: 250px; 
+} 
+
+.coluna p {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.organização{
+    text-align: left;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #0466c8;
+  }
+  
+  .avaliacao {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   
+  }
+  
+  .nome {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .descricao {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .estrelas {
+    color: gold;
+    font-size: 1.3em;
+  }
+  
+  .nota-num {
+    color: #333;
+    margin-left: 10px;
+  }
+
+  .coca{
+    margin-bottom: 20px;
+  }
